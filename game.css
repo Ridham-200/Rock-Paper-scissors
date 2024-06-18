@@ -1,0 +1,67 @@
+.heading{
+    height: 100px;
+    background-color: midnightblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+align-items: center;
+font-size: 30px;
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.choice:hover{
+    cursor: pointer;
+    background-color:black;
+}
+.image{
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+.rim{background-image: url("rock.png");
+
+}
+.sim{background-image: url("scissor.png");
+   }
+.pim{background-image: url("paper.png");
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 80px;
+}
+.scoreboard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    gap: 5rem;
+}
+#user,#comp{
+    font-size: 4rem;
+}
+.message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+#msg{
+font-size: 2rem;
+margin-top: 2rem;background-color: #081b31;
+color: aliceblue;
+display: inline;
+padding: 2rem;
+border-radius: 2rem;
+}
